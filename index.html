@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <link href="styles2.css" type="text/css" rel="stylesheet">
+  <link href="my_styles.css" type="text/css" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img src="goo.png" alt="pegion2"/>
+    <h3 class="w3-padding-64"><i style="color:yellow;">The Fastest Pigeon around,<br> in Delivery Services.</i></h3>
+
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-#615e5d">Home</a>
+
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-#615e5d">Services</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-#615e5d">Prices</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-#615e5d">Packages</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-#615e5d">Contact</a>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 id="main_title" class="w3-jumbo"><b style="border-bottom: double #ffe945 15px;border-left-style: solid ;"> Pigeon King Delivery</b></h1>
+    <div id="main_img"><img src="images.png" alt="pegion"/></div>
+  </div>
+
+<div>
+    <h1 class="w3-xxxlarge w3-text-red"><b>What We Do For You.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <section class = "tracking">
+    <h2>  Great Tracking Service</h2><img src="bgg.jpg" alt="track"/>
+    <p>Whether it's 1 violin for you or 10,000 vaccines for an overseas clinic, there's a lot riding on your ability to deliver and track a package. But the information that you need about status to manage these two shipments is completely different.
+    That's why we've developed a range of tracking tools that deliver precisely the information you need, where and when you need it. So you can re-route those violins to arrive at school for the first day of class. Or estimate delivery of that life-saving medicine so the clinic can schedule staff.</p>
+    <h2>  Full Insurance Cover </h2><img src="ddd.png" alt="insure"/>
+    <p>makes it easy for companies to purchase shipping insurance coverage against loss or damage to goods while the shipments are in transitn lower-cost package insurance to business shippers, while offering superior customer and claims service.</p>
+    <p>CUSTOMIZED INSURANCE QUOTES
+     we deliver a custom insurance policy/proposal after you request a quote online. Customized to your business needs & shipping patterns, we will lower your shipping expenses. Request a no obligation quote now.</p>
+    <h2>  24/7 Customer Service</h2><img src="xxx.png" alt="247"/>
+    <p>Your customers are the reason you’re still in business, and your job is to serve your customers to the best of your ability.Thats what we think when you come to us as a customer. We dont stop after 9 to 5, our 24/7 customer service team are always on hand to respond to your queries.</p>
+
+
+  </div>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+
+
+    </div>
+
+    <div class="w3-half">
+
+
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h2>We are a service that focus on what's best for you!</h2>
+    <p><h3 style="border-left-style: dotted ;"> Business Service</h3>Get one step ahead of your competition and reaching your customers with the strength of the Pigeon King global network. That's more than 400,000 people working across 220 countries with one goal: making your shipping process work to your logistical and competitive advantage.
+
+    Whether you're an entrepreneur or enterprise, Pigeon Kings tools and technologies will help you create efficiencies, centralize control, cut costs, and increase productivity. And with more flexibility and better insight, you'll have peace of mind that you're shipping the best way for your business.</p>
+
+    <p><h3 style="border-left-style: dotted ;">Individual Services</h3>You may not ship frequently, but when you do, you want an intuitive, responsive and efficient experience from sending to delivery. Pigeon King solutions for individual shippers provide tools and technology that let you ship from home or a nearby Pigeon King location, then track and manage the package as it's in transit. You can conveniently schedule deliveries or collections, intercept a package en route that's in transit if your plans change, and even get tips and tricks for packing and shipping. Trust our experts to deliver your package safely, reliably, where and when you need it, with knowing you are in safe hands.</p>
+
+  </div>
+
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Prices.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h2>The Best Prices in delivery Right Now .</h2>
+    <p>Comparing the prices and services of different couriers can be a difficult business, especially if you don’t know much about using a courier. At Pegion King we make things simple and worry free. We only work with the best courier companies and our price comparison to other company enables you to obtain the cheapest prices, with delivery from £2.50 and huge savings of up to 60% against other services.
+    </p>
+    <p><b>Our working team are thoughtfully chosen</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John O Sullivan</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>John worked for over 10years in the logistics and delivery business before starting his own company with the idea of delivering a fast service at great prices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Susan" style="width:100%">
+        <div class="w3-container">
+          <h3>Susan Casey</h3>
+          <p class="w3-opacity">Head Of Logistics</p>
+          <p>Susan manages the logistics of the pegion king with over 15years experience in this area, she takes getting you parcel to you very seriuosly.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Customer Service Manager</p>
+          <p>Mike has sent over 20years managing customer service in many industrys and hates to hear from a unhappy customer that he cant fix there problem.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Start shipping today! Here’s where you can send a parcel, get express shipping rates, find locations and learn more about shipping with Pegion King. We’re here to support you with our Customs expertise, variety of shipping solutions and wealth of knowledge in international shipping.</p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16">No Insurance</li>
+        <li class="w3-padding-16">No Tracking</li>
+        <li class="w3-padding-16">No updates</li>
+        <li class="w3-padding-16">24 hour customer service</li>
+        <li class="w3-padding-16">Sign for delivery</li>
+        <li class="w3-padding-16">
+          <h2>Starting from €2.99</h2>
+          <h3>In Ireland</h3>
+          <span class="w3-opacity">Per Small Package Under 0.5kg</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16">Insurance shipping</li>
+        <li class="w3-padding-16">Tracking</li>
+        <li class="w3-padding-16">Updates</li>
+        <li class="w3-padding-16">24 hour customer service</li>
+        <li class="w3-padding-16">Sign for delivery</li>
+        <li class="w3-padding-16">
+          <h2>Starting From €4.99 </h2>
+          <h3>In Ireland</h3>
+          <span class="w3-opacity">Per Large Package Under 1kg</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b><img src="helmet.jpg" alt="pegion5"/></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h3>Sign up for our full service. Fill me in with the details :) We love meeting new people!</h3>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form><img src="uuu.jpg" alt="pegion3"/><!--> Created by: Peter Murphy /</-->
+    <!--> Date of Creation: 2008 </-->
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

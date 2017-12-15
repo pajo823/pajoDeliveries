@@ -1,0 +1,25 @@
+#showcase {
+  display: flex;
+   justify-content: space-between;
+}
+#main_title {
+  display: inline-block;
+  width: 75%!important;
+}
+
+#main_img {
+  /*width*/
+    display: inline-block;
+    width: 25%!important;
+    text-align: right;
+}
+
+section.tracking{
+
+  width:50%;
+  margin:0 auto;
+}
+
+img{
+  max-width: 100%;
+}
